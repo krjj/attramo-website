@@ -82,7 +82,7 @@
                             <h2>Success! Your Message was Sent Successfully.</h2>
 
                         </div>
-                        <form id="reused_form" data-netlify="true">
+                        <form id="reused_form" netlify-honeypot="btf" data-netlify="true">
                             <div class="form-group">
                                 <label>Your Name</label>
                                 <input type="text" name="name" class="form-control">
@@ -95,6 +95,7 @@
                                 <label> Your Message</label>
                                 <textarea rows="3" name="message" class="form-control"></textarea>
                             </div>
+                            <input type="hidden" name="btf"/>
                             <div class="form-group">
                                 <button class="joinChamber">Send</button>
                             </div>
