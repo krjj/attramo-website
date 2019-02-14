@@ -5,14 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	
 	<!-- SEO -->
-	<title>Attramo - home</title>
+	<title>Gustavo's Hair Studio, Hair Salon in Dallas | Attramo</title>
 	<meta name="description" content="Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content." />
 
 	<!-- Favicon -->
-	<link rel="icon" type="image/png" href="images/favicon.png" sizes="32x32">
+	<link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico" sizes="32x32">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 	<!-- Styles -->
 	<link rel='stylesheet' href='css/global.css' type='text/css' media='screen' />
+	<script src="js/jquery-1.8.3.min.js" type="text/javascript"></script>
 	<meta name="viewport" content="width=device-width,initial-scale=1" />
 </head>
 
@@ -29,35 +30,46 @@
 		<div class="split-content-vertically-center">
 			<div class="Business-content">
 				<p class="text-center Business-logo"><img src="image/Logo.jpg" alt="logo" title="logo"     height="100px" width="200px" /></p>
-				<h1 class="Business-name text-center heading1Font normalfont smallMargin" >Gustavo's Hair Studio</h1>
-				<h2 class="Business-aria text-center bodyFont normalfont mediumMargin">Hair Salon in Dallas</h2>
-				<p class="Business-info text-center smallMargin">Gustavo Troche-Smith is a licensed hair stylist and colorist and has also worked in the industry as an instructor for over a decade. </p>
-				<p class="Share-button text-center captionFont mediumMargin">
-					<a class="Share simpleButton" href="#">Share</a>
+				<h1 class="Business-name text-center heading1Font normalfont smallestMargin" >Gustavo's Hair Studio</h1>
+				<h2 class="Business-aria text-center bodyFont normalfont smallMargin">Hair Salon in Dallas</h2>
+				<p class="Business-info text-center smallMargin">Gustavo Troche-Smith is a licensed hair stylist and colorist and has also worked in the industry as an instructor for over a decade. <span class="Business-Details-link captionFont mediumMargin"><a href="#Business-about">More Info</a></p>
+				<p class="Share-button text-center captionFont smallMargin">
+					<a class="Share simpleButton captionFont" href="#">Share</a>
 					<a class="Bookmark simpleButton" href="#">Bookmark</a>
 				</p>
-				<h3 class="Call-toAction-button text-center heading3Font normalfont mediumMargin"><a href="get-a-free-quotation.html">Book An Appointment</a></h3>
+				<p class="Reviews-link text-center mediumMargin">
+					<span class="starRating">
+						<span class="star-icon"></span>
+						<span class="star-icon"></span>
+						<span class="star-icon"></span>
+						<span class="star-icon"></span>
+						<span class="star-icon"></span>
+					</span>
+					<a href="#Business-feedback">Reviews (3)</a>
+				</p>
+				<h3 class="Call-toAction-button text-center heading3Font normalfont largeMargin"><a href="get-a-free-quotation.html">Book An Appointment</a></h3>
 				<div class="Business-image text-center mediumMargin">
 					<ul>
-						<li><img src="image/ImageGallery1.jpg" width="98px" height="98px"></li>
 						<li><img src="image/ImageGallery2.jpg" width="98px" height="98px"></li>
 						<li><img src="image/ImageGallery3.jpg" width="98px" height="98px"></li>
-						<li><a href="image-gallery.html" class="moreimage" ><img src="image/ImageGallery4.jpg" height="98px" width="98px"><span class="captionFont">12</br> PHOTOS</span></a></li>
+						<li><a href="image-gallery.html" class="moreimage" ><img src="image/ImageGallery4.jpg" height="98px" width="98px"><span class="captionFont"><sapn class="photoFontSize">12</sapn></br> Photos</span></a></li>
 					</ul>
 				</div>
-				<div class="text-center mediumMargin">
-					<p class="Business-hours boldFont">Open Monday - 09:30am to 9pm<span class="dateSelectionIcon"></span></p>
-					<!-- <ul clss="">
-						<li class="Business-hours">TUS - 09:30am to 9pm</li>
-						<li class="Business-hours">WED - 09:30am to 9pm</li>
-						<li class="Business-hours">THU - 09:30am to 9pm</li>
-						<li class="Business-hours">FRI - 09:30am to 9pm</li>
-					</ul> -->
+				<div class="text-center smallMargin">
+					<p class="Business-hours boldFont">Open Monday - 09:30am to 9pm <span class="arrow-Icon more-Date"></span></p>
+					<div class="More--Date-content">
+						<ul class="">
+							<li class="Business-hours">TUS - 09:30am to 9pm</li>
+							<li class="Business-hours">WED - 09:30am to 9pm</li>
+							<li class="Business-hours">THU - 09:30am to 9pm</li>
+							<li class="Business-hours">FRI - 09:30am to 9pm</li>
+						</ul>
+					</div>
 				</div>
-				<div class="text-center mediumMargin">
+				<div class="text-center smallMargin">
 					<p class="Business-location"><span class="locationIcon"></span> 218 E Grand River Ave, Brighton, MI 48116, USA</p>
 				</div>
-				<Section class="Business-CTA-button text-center largeMargin">
+				<Section class="Business-CTA-button text-center mediumMargin">
 					<ul>
 						<li><a class="simpleButton captionFont" href="#">Directions</a></li>
 						<li><a class="simpleButton captionFont" href="#">Call</a></li>
@@ -67,46 +79,87 @@
 					</ul>
 				</section>
 				<section class="Business-Services-Offered largeMargin">
-					<h2 class="heading2Font normalfont smallMargin">Services Offered <span class="grayText">(5)</span></h2>
+					<h2 class="heading2Font normalfont smallMargin">Services Offered <span class="grayText">(4)</span></h2>
 					<ul>
 						<li class="smallMargin borderBottomClass">
 							<div class="services-list leftFolat">
-								<h3 class="boldFont bodyFont">Women’s Haircut</h3>
-								<p class="grayText captionFont smallMargin">$110 for 75 minutes</p>
+								<h3 class="boldFont bodyFont smallestMargin">Full Head Color</h3>
+								<p class="grayText captionFont smallMargin">$110 for 75 minutes <span class="info-icon"></span></p>
 							</div>
 							<a href="services-offered.html" class="services-CTA-Button rightFloat">Info</a>
 							<div class="clearFloat"></div>
 						</li>
 						<li class="smallMargin borderBottomClass">
 							<div class="services-list leftFolat">
-								<h3 class="boldFont bodyFont">Women’s Haircut</h3>
-								<p class="grayText captionFont smallMargin">$110 for 75 minutes</p>
+								<h3 class="boldFont bodyFont smallestMargin">Men’s Haircut</h3>
+								<p class="grayText captionFont smallMargin">$110 for 75 minutes <span class="info-icon"></span></p>
+							</div>
+							<a href="services-offered.html" class="services-CTA-Button rightFloat">Info</a>
+							<div class="clearFloat"></div>
+						</li>
+						<li class="smallMargin borderBottomClass">
+							<div class="services-list leftFolat">
+								<h3 class="boldFont bodyFont smallestMargin">Retouch Color</h3>
+								<p class="grayText captionFont smallMargin">$110 for 75 minutes <span class="info-icon"></span></p>
 							</div>
 							<a href="services-offered.html" class="services-CTA-Button rightFloat">Info</a>
 							<div class="clearFloat"></div>
 						</li>
 						<li class="borderBottomClass">
 							<div class="services-list leftFolat">
-								<h3 class="boldFont bodyFont">Women’s Haircut</h3>
-								<p class="grayText captionFont smallMargin">$110 for 75 minutes</p>
+								<h3 class="boldFont bodyFont smallestMargin">Bang Trim</h3>
+								<p class="grayText captionFont smallMargin">$110 for 75 minutes <span class="info-icon"></span></p>
 							</div>
 							<a href="services-offered.html" class="services-CTA-Button rightFloat">Info</a>
 							<div class="clearFloat"></div>
 						</li>
 					</ul>
 				</section>
-				<section class="Business-about borderBottomClass largeMargin">
+				<section class="Business-about borderBottomClass largeMargin" id="Business-about">
 					<h2 class="heading2Font normalfont smallMargin" >About Gustavo's Hair Studio</h2>
-					<p class="smallMargin">Gustavo's Hair Studio has a fun and relaxing salon atmosphere. Gustavo is a PRAVANA Master Hair Colorist and has over 10 years of experience as a hair stylist.</p>
-					<a href="about-us.html" class="NavArrow"></a>
+					<p class="smallestMargin">Gustavo's Hair Studio has a fun and relaxing salon atmosphere. Gustavo is a PRAVANA Master Hair Colorist and has over 10 years of experience as a hair stylist.</p>
+
+					<div class="More-content smallMargin">
+						<p class="">Gustavo's Hair Studio has a fun and relaxing salon atmosphere. Gustavo is a PRAVANA Master Hair Colorist and has over 10 years of experience as a hair stylist.</p>
+						<p class="">Gustavo's Hair Studio has a fun and relaxing salon atmosphere. Gustavo is a PRAVANA Master Hair Colorist and has over 10 years of experience as a hair stylist.</p>
+						<p class="">Gustavo's Hair Studio has a fun and relaxing salon atmosphere. Gustavo is a PRAVANA Master Hair Colorist and has over 10 years of experience as a hair stylist.</p>
+					</div>
+					<p class="smallMargin"><a href="#" class="More-link" >Show more<span class="arrow-Icon "></span></a></p>
+					
 				</section>
-				<section class="Business-feedback borderBottomClass largeMargin">
+				<section class="Business-feedback borderBottomClass largeMargin" id="Business-feedback">
 					<h2 class="heading2Font normalfont smallMargin">Gustavo's Hair Studio Reviews <span class="grayText">(3)</span></h2>
 					<div>
-						<img src="image/Testimonial_Image.jpg" class="leftFolat" width="83" height="83">
-						<p class="rightFloat">"Gustavo is Great! He gives better men's cuts than anyone I have ever used and for an amazing price. He makes it super easy with online booking, payment and a convenient location."<span class="clientName smallMargin"><b>Kim Smith</b> - North Carolina</span></p>
-						<div class="clearFloat"></div>
-						<a href="testimonials.html" class="NavArrow"></a>
+						<p class="smallestMargin">
+						<span class="starRating">
+							<span class="star-icon"></span>
+							<span class="star-icon"></span>
+							<span class="star-icon"></span>
+							<span class="star-icon"></span>
+							<span class="star-icon"></span>
+						</span>
+						</span><b>Full Head Color</b>
+						<p>
+						<!-- <img src="image/Testimonial_Image.jpg" class="leftFolat" width="83" height="83"> -->
+						<p class="smallestMargin">"Gustavo is Great! He gives better men's cuts than anyone I have ever used and for an amazing price. He makes it super easy with online booking, payment and a convenient location."</p>
+						<p class="clientName smallestMargin"><b>Kim Smith</b> - North Carolina</p>
+						<div class="More-content smallestMargin">
+							<p class="smallestMargin">
+							<span class="starRating">
+								<span class="star-icon"></span>
+								<span class="star-icon"></span>
+								<span class="star-icon"></span>
+								<span class="star-icon"></span>
+								<span class="star-icon"></span>
+							</span>
+							</span><b>Full Head Color</b>
+							<p>
+							<!-- <img src="image/Testimonial_Image.jpg" class="leftFolat" width="83" height="83"> -->
+							<p class="smallestMargin">"Gustavo is Great! He gives better men's cuts than anyone I have ever used and for an amazing price. He makes it super easy with online booking, payment and a convenient location."</p>
+							<p class="clientName smallestMargin"><b>Kim Smith</b> - North Carolina</p>
+						</div>
+						<p class="smallMargin"><a href="#" class="More-link" >Show more<span class="arrow-Icon"></span></a></p>
+						
 					</div>
 				</section>
 				<section class="Business-social borderBottomClass largeMargin">
@@ -127,5 +180,31 @@
 		</div>
 	</div>
 </div>
+<script type="text/javascript">
+	 $(".More--Date-content").hide();
+	$(".more-Date").click(function(){
+	  $(".More--Date-content").toggle();
+	});
+
+	$('.More-content').hide();
+
+		$(document).on('click','.More-link', function(e){
+		   e.preventDefault();
+		   $(this).parent().prev('.More-content').toggle();
+		   if($(this).parent().prev('.More-content').is(':visible')){
+		   		$(this).text("Show less");
+		   }else{
+		   		$(this).text("Show more");
+		   }
+		   /*$(this).parent().next('.More-content').toggle();
+		   if($(this).parent().next('.More-content').is(':visible')){
+		   		$(this).text("Show less");
+		   }else{
+		   		$(this).text("Show more");
+		   }*/
+		   
+		});
+
+</script>
 </body>
 </html>

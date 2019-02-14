@@ -14,9 +14,9 @@ body {
   background: #fefefe;
   font-family: 'Montserrat', sans-serif;
   font-weight: normal;
-  line-height: 1.7;
+  line-height: 1.5;
   font-size:14px;
-  color: #333333;
+  color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 a {
@@ -25,6 +25,7 @@ a {
   color:#498fe1;
   text-decoration:none;
 }
+a:hover{color:#0869a1}
 /*Split functionality Start*/
 .attramo-split {width: 100vw;height: 100vh; display: -webkit-box;display: -ms-flexbox;display: flex; }
 .attramo-split .split-image {width: 60%;height: 100vh; background-image: url("../image/CoverImage.jpg");background-size: cover; }
@@ -35,8 +36,9 @@ a {
   .attramo-split .split-image {height: 80vh;width: 100%; }
   .attramo-split .split-content {width: 100%;height: auto; }
   .attramo-split .split-content .split-content-vertically-center { padding: 40px; }
-  .Business-feedback p{width: 70%; margin-top: 0px 0px 0px 0px}
   .attramo-split .split-image.smallWidth{display: none}
+  /*other fixes*/
+  /*.Business-feedback p{width: 70%; margin-top: 0px 0px 0px 0px}*/
 }
 @media (max-width: 500px) {
   .attramo-split .split-image {height: 60vh;width: 100%; }}
@@ -48,13 +50,13 @@ a {
 }
 /*window width between 1050 and 800*/
 @media (max-width: 1100px) and (min-width: 800px) {
-  .Business-feedback p{width: 100%; margin: 15px 0px 0px 0px}
+  /*.Business-feedback p{width: 100%; margin: 15px 0px 0px 0px}*/
 }
 @media (max-width: 400px) {
-  .Business-feedback p{width: 100%; margin: 15px 0px 0px 0px}
+  /*.Business-feedback p{width: 100%; margin: 15px 0px 0px 0px}*/
 }
 @media screen and (min-width: 1101px) {
-  .Business-feedback p{width: 70%; margin: 0px 0px 0px 0px}
+  /*.Business-feedback p{width: 70%; margin: 0px 0px 0px 0px}*/
 }
 /*Split functionality END*/
 
@@ -66,53 +68,56 @@ a {
 .heading1Font{font-size: 27px }
 .heading2Font{font-size: 21px}
 .heading3Font{font-size: 17px}
+.photoFontSize{font-size: 30px}
 .boldFont{font-weight: bold}
 .normalfont{font-weight: normal;}
 .bodyFont{font-size: 14px}
 .largeMargin{margin-bottom: 40px}
 .mediumMargin{margin-bottom: 25px}
 .smallMargin{margin-bottom: 15px }
+.smallestMargin{margin-bottom: 8px }
 h1,h2,h3,h4,h5,ul,li,div {line-height: 1.2;}
 h1,h2,h3,h4,h5,p,span,a, ul, li, div{margin: 0px; padding: 0px}
-p, span{line-height: 1.7}
-/*.Business-aria,.Business-name,.Business-info,.Call-toAction-button,.Share-button,.Business-hours {margin-bottom: 10px}
-*/.simpleButton{ line-height: 1.7;width: auto;border: 1px solid #2cb6df;color: #2cb6df;border-radius: 100px;display: inline-block; padding: 5px 15px;}
-.simpleButton:hover{color: #FFF; background: #2cb6df}
-.Call-toAction-button a, .nextBtn, .nextBtn2, .services-CTA-Button{width: auto;color: #FFF;border-radius: 5px; background: #2cb6df; display: inline-block; padding: 5px 18px;}
+p, span{line-height: 1.5}
+.simpleButton{ line-height: 1.7;width: auto;background: #f9f7f7;color: #498fe1;border-radius: 100px;display: inline-block; padding: 5px 15px;}
+.simpleButton:hover{color: #FFF; background: #0869a1}
+.Call-toAction-button a, .nextBtn, .nextBtn2, .services-CTA-Button{width: auto;color: #FFF;border-radius: 4px; background: #027abf; display: inline-block; padding: 5px 18px;}
 .Call-toAction-button a{ padding: 10px 18px; }
-.Call-toAction-button a:hover, .nextBtn:hover, .nextBtn2:hover, .services-CTA-Button:hover{color: #FFF; background:#168caf; }
+.Call-toAction-button a:hover, .nextBtn:hover, .nextBtn2:hover, .services-CTA-Button:hover{color: #FFF; background:#0869a1; }
 .Business-image ul, .Business-CTA-button ul, .Business-social ul, .getQuotationlist, .serviceCateory, .Business-Services-Offered ul{padding: 0px;list-style-type: none; }
 .Business-CTA-button ul li, .Business-social ul li, .serviceCateory li, .Business-image li{display: inline-block;}
 .Business-image ul{margin: 0px -20px 0px -20px;}
 .Business-Services-Offered h2,.Business-about h2, .Business-feedback h2,.Business-social h2, .Business-image-gallery h1, .Business-Services-page h1, .Business-Services-page h2, .Business-About-page h1, .Business-testimonials h1, .Business-get-quotation h1, .Business-thanks-page h1{color:#4a4a4a;}
 .moreimage {position: relative; display: inline-block; background: #666769; height: 98px;}
 .moreimage img{opacity: 0.5}
-.moreimage span{position: absolute;text-align: center;top: 29%; right: 22%;color: #FFF;}
-.grayText{color:#adaaaa; }
-.borderBottomClass{border-bottom: 1px solid #eae7e7;}
-.Business-about, .Business-feedback{position: relative;padding-right: 20px}
+.moreimage span{position: absolute;text-align: center;top: 33%; right: 22%;color: #FFF; line-height: 1.2rem;}
+.grayText{color:#666; }
+.borderBottomClass{border-bottom: 1px solid #f0eeee;}
 .rightFloat.fullWidth{width: 100%}
-.clientName{display: block;}
-.dateSelectionIcon,.locationIcon,.facebook,.twitter,.instagram,.youtube,.linkedin,.pinterest, .NavArrow, .attramo-logo, .homeBackIcon{background-image: url(../image/Sprite.svg);background-repeat: no-repeat;height: 42px;width: 42px;display: inline-block;border-radius:100px;}
-.locationIcon{background-position: 0px -362px;height: 22px;width: 23px;vertical-align: middle;}
-.dateSelectionIcon{background-position: -3px -302px;height: 23px;width: 26px;vertical-align: middle;}
-.dateSelectionIcon:hover{background-position: -28px -302px;}
-.facebook:hover{background-position: -50px -58px;}
-.facebook{background-position: -6px -58px;}
-.twitter:hover{background-position: -50px -252px;}
-.twitter{background-position: -6px -252px;}
-.instagram:hover{background-position: -50px -106px;}
-.instagram{background-position: -6px -106px;}
-.youtube:hover{background-position: -50px -7px;}
-.youtube{background-position: -6px -7px;}
-.linkedin:hover{background-position: -50px -155px;}
-.linkedin{background-position: -6px -155px;}
-.pinterest:hover{background-position: -50px -205px;}
-.pinterest{background-position: -6px -205px;}
-.NavArrow{background-position: 0px -336px;height: 16px;width: 16px;position: absolute;right: 0px;top: 42%;}
-.NavArrow:hover{background-position: -19px -336px}
+.clientName, .Business-Details-link{display: block;}
+.arrow-Icon,.locationIcon,.facebook,.twitter,.instagram,.youtube,.linkedin,.pinterest, .attramo-logo, .homeBackIcon, .star-icon, .info-icon{background-image: url(../image/Sprite.svg);background-repeat: no-repeat;height: 36px;width: 36px;display: inline-block;}
+.locationIcon{background-position: 0px -24px;height: 22px;width: 23px;vertical-align: middle;}
+.Business-hours .arrow-Icon{border-radius: 2px;border:1px solid #f0eeee;}
+.arrow-Icon{background-position: 1px -46px;height: 15px;width: 16px;vertical-align: middle; margin-left: 3px;}
+.facebook:hover{background-position: -39px -129px}
+.facebook{background-position: -2px -129px}
+.twitter:hover{background-position: -39px -288px;}
+.twitter{background-position: -2px -288px;}
+.instagram:hover{background-position: -39px -168px;}
+.instagram{background-position: -2px -168px;}
+.youtube:hover{background-position: -39px -90px;}
+.youtube{background-position: -2px -90px;}
+.linkedin:hover{background-position: -39px -208px;}
+.linkedin{background-position: -2px -208px;}
+.pinterest:hover{background-position: -39px -248px;}
+.pinterest{background-position: -2px -248px;}
+.star-icon{width: 13px;height: 14px;background-position: -3px -3px;}
+.starRating{margin-right: 5px;vertical-align: baseline;}
+.info-icon{width: 16px;height: 17px;background-position: -3px -64px; vertical-align: middle; margin-left: 3px;}
 .Share-button a:first-child, .Business-CTA-button ul li{margin-right: 4px}
-.attramo-logo{background-position: -5px -389px; height: 32px;width: 95px;vertical-align: middle;}
+.Business-CTA-button ul li { margin-bottom:10px  }
+.attramo-logo{background-position: -0px -333px; height: 32px;width: 95px;vertical-align: middle;}
+.attramo-logo:hover{background-position: -96px -333px; }
 /* image gallery page */
 .homeBackIcon{background-position: -4px -449px;height: 33px;width: 85px;}
 .homeBackIcon:hover{background-position: -94px -449px;}
@@ -129,3 +134,6 @@ p, span{line-height: 1.7}
 .nameSection{width: 45%}
 .nameSection input{width: 95%}
 .phone, .email{width: 97%}
+.checked {
+  color: orange;
+}
