@@ -28,6 +28,7 @@ a {
 a:hover{color:#0869a1}
 /*Split functionality Start*/
 .attramo-split {width: 100vw;height: 100vh; display: -webkit-box;display: -ms-flexbox;display: flex; }
+.attramo-split .split-image.Best_TV {background-image: url("../image/Spotlight_Image.jpg") !important;}
 .attramo-split .split-image {width: 60%;height: 100vh; background-image: url("../image/CoverImage.jpg");background-size: cover; }
 .attramo-split .split-content {width: 40%;/*min-height: 100vh;*/ display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;-webkit-box-pack: center;-ms-flex-pack: center;justify-content: center;overflow: auto; }
 .attramo-split .split-content .split-content-vertically-center {padding: 60px;max-width: 400px;margin-top: 0px; margin-bottom: auto; }
@@ -88,6 +89,7 @@ p, span{line-height: 1.5}
 .Business-CTA-button ul li, .Business-social ul li, .serviceCateory li, .Business-image li{display: inline-block;}
 .Business-image ul{margin: 0px -20px 0px -20px;}
 .Business-Services-Offered li{padding-bottom: 7px}
+.services-list{width: 70%}
 .Business-Services-Offered h2,.Business-about h2, .Business-feedback h2,.Business-social h2, .Business-image-gallery h1, .Business-Services-page h1, .Business-Services-page h2, .Business-About-page h1, .Business-testimonials h1, .Business-get-quotation h1, .Business-thanks-page h1{color:#4a4a4a;}
 .moreimage {position: relative; display: inline-block; background: #666769; height: 98px;}
 .moreimage img{opacity: 0.5}
